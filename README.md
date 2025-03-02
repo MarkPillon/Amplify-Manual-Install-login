@@ -89,3 +89,6 @@ Here you'll need to link your Github with Amplify.  There will be an authorizati
 You should see [this](https://main.d14gwr0byd26gz.amplifyapp.com/) below from your Domain that was created by Amplify.
 
 ![alt text](image.png)
+
+## Step 2 - Login and Security Setup (Authorization)
+

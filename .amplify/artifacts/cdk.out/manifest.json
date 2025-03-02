@@ -1,0 +1,1208 @@
+{
+  "version": "39.0.0",
+  "artifacts": {
+    "amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/b60e598661ab6c404e959cb112b0ea1ae02edb5f6760f13c6bae0335ae78f219.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732.assets"
+      ],
+      "metadata": {
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/amplifyAuth/UserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPool4BA7F805"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/amplifyAuth/UserPoolAppClient/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolAppClient2626C6F8"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/amplifyAuth/IdentityPool": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPool3FDE84CC"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/amplifyAuth/authenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthUserPool7BD117B8Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthUserPool7BD117B8Ref"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthUserPoolAppClient7553D145Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthUserPoolAppClient7553D145Ref"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthIdentityPool9D353E61Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthIdentityPool9D353E61Ref"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthauthenticatedUserRoleC2205315Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthauthenticatedUserRoleC2205315Ref"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth/amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthunauthenticatedUserRoleAEE130F1Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthunauthenticatedUserRoleAEE130F1Ref"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/auth.NestedStack/auth.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "auth179371D7"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/userPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "userPoolId"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/webClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webClientId"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/identityPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "identityPoolId"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/authRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "authRegion"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/allowUnauthenticatedIdentities": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "allowUnauthenticatedIdentities"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/signupAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "signupAttributes"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/usernameAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "usernameAttributes"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/verificationMechanisms": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "verificationMechanisms"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/passwordPolicyMinLength": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyMinLength"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/passwordPolicyRequirements": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyRequirements"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/mfaConfiguration": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaConfiguration"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/mfaTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaTypes"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/socialProviders": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "socialProviders"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/oauthCognitoDomain": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthCognitoDomain"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/oauthScope": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthScope"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/oauthRedirectSignIn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignIn"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/oauthRedirectSignOut": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignOut"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/oauthResponseType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthResponseType"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/oauthClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthClientId"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/groups": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "groups"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/GraphQLAPI/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPI42A6FA33"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/GraphQLAPI/TransformerSchema": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/GraphQLAPI/NONE_DS": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPINONEDS684BF699"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager/AmplifyManagedTableIsCompleteRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableIsCompleteRoleF825222C"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleB4E71DEA"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleDefaultPolicyF6DABCB6"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-onEvent/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkonEvent1DFC2ECC"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-isComplete/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkisComplete2E51021B"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRole470BE899"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRoleDefaultPolicy89F3836A"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachine060600BC"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager/reference-to-amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataGraphQLAPI4D344930ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataGraphQLAPI4D344930ApiId"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager/amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent8D0BAA4CArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent8D0BAA4CArn"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/HasEnvironmentParameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HasEnvironmentParameter"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/ShouldUseServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUseServerSideEncryption"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/ShouldUsePayPerRequestBilling": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePayPerRequestBilling"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/ShouldUsePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePointInTimeRecovery"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/TodoTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Todo"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/TodoTable/Default/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodoTable"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Todo"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/CustomTableTodoTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Todo"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/GetAttTodoTableStreamArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttTodoTableStreamArn"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/GetAttTodoTableName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttTodoTableName"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/TodoIAMRole": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "TodoIAMRole"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/TodoIAMRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodoIAMRole2DA8E66E"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "TodoIAMRole"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/TodoDataSource": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "TodoTable"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/TodoDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodoDataSource"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "TodoTable"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/QuerygetTodoauth0Function/QuerygetTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetTodoauth0FunctionQuerygetTodoauth0FunctionAppSyncFunction846D8436"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetTodoauth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/QuerygetTodopostAuth0Function/QuerygetTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetTodopostAuth0FunctionQuerygetTodopostAuth0FunctionAppSyncFunction6BE14593"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetTodopostAuth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/QueryGetTodoDataResolverFn/QueryGetTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryGetTodoDataResolverFnQueryGetTodoDataResolverFnAppSyncFunctionE2B57DAD"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryGetTodoDataResolverFn"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/queryGetTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.getTodo"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/QuerylistTodosauth0Function/QuerylistTodosauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistTodosauth0FunctionQuerylistTodosauth0FunctionAppSyncFunction7D761961"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistTodosauth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/QuerylistTodospostAuth0Function/QuerylistTodospostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistTodospostAuth0FunctionQuerylistTodospostAuth0FunctionAppSyncFunction154D8577"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistTodospostAuth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/QueryListTodosDataResolverFn/QueryListTodosDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryListTodosDataResolverFnQueryListTodosDataResolverFnAppSyncFunctionF825FE47"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryListTodosDataResolverFn"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/queryListTodosResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ListTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.listTodos"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/MutationcreateTodoinit0Function/MutationcreateTodoinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateTodoinit0FunctionMutationcreateTodoinit0FunctionAppSyncFunction54DE5B8B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateTodoinit0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/MutationcreateTodoauth0Function/MutationcreateTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateTodoauth0FunctionMutationcreateTodoauth0FunctionAppSyncFunction21817E36"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateTodoauth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/MutationcreateTodopostAuth0Function/MutationcreateTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateTodopostAuth0FunctionMutationcreateTodopostAuth0FunctionAppSyncFunctionED59EB9F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateTodopostAuth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/MutationCreateTodoDataResolverFn/MutationCreateTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationCreateTodoDataResolverFnMutationCreateTodoDataResolverFnAppSyncFunction900EC5CF"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateTodoDataResolverFn"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/mutationCreateTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CreateTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createTodo"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/MutationupdateTodoinit0Function/MutationupdateTodoinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateTodoinit0FunctionMutationupdateTodoinit0FunctionAppSyncFunction1B95BB19"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateTodoinit0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/MutationupdateTodoauth0Function/MutationupdateTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateTodoauth0FunctionMutationupdateTodoauth0FunctionAppSyncFunction1E4A3112"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateTodoauth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/MutationupdateTodopostAuth0Function/MutationupdateTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateTodopostAuth0FunctionMutationupdateTodopostAuth0FunctionAppSyncFunction50C507D7"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateTodopostAuth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/MutationUpdateTodoDataResolverFn/MutationUpdateTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationUpdateTodoDataResolverFnMutationUpdateTodoDataResolverFnAppSyncFunctionBC238C49"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationUpdateTodoDataResolverFn"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/mutationUpdateTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UpdateTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.updateTodo"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/MutationdeleteTodoauth0Function/MutationdeleteTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteTodoauth0FunctionMutationdeleteTodoauth0FunctionAppSyncFunctionC82C218C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteTodoauth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/MutationdeleteTodopostAuth0Function/MutationdeleteTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteTodopostAuth0FunctionMutationdeleteTodopostAuth0FunctionAppSyncFunction483271A2"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteTodopostAuth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/MutationDeleteTodoDataResolverFn/MutationDeleteTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationDeleteTodoDataResolverFnMutationDeleteTodoDataResolverFnAppSyncFunction3879153F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationDeleteTodoDataResolverFn"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/mutationDeleteTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DeleteTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.deleteTodo"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/SubscriptiononCreateTodoauth0Function/SubscriptiononCreateTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateTodoauth0FunctionSubscriptiononCreateTodoauth0FunctionAppSyncFunction042EF9E1"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateTodoauth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/SubscriptiononCreateTodopostAuth0Function/SubscriptiononCreateTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateTodopostAuth0FunctionSubscriptiononCreateTodopostAuth0FunctionAppSyncFunction18E34C4E"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateTodopostAuth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/SubscriptionOnCreateTodoDataResolverFn/SubscriptionOnCreateTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnCreateTodoDataResolverFnSubscriptionOnCreateTodoDataResolverFnAppSyncFunction462A70C9"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnCreateTodoDataResolverFn"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/subscriptionOnCreateTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onCreateTodo"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/SubscriptiononUpdateTodoauth0Function/SubscriptiononUpdateTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateTodoauth0FunctionSubscriptiononUpdateTodoauth0FunctionAppSyncFunction80D0DFA3"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateTodoauth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/SubscriptiononUpdateTodopostAuth0Function/SubscriptiononUpdateTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateTodopostAuth0FunctionSubscriptiononUpdateTodopostAuth0FunctionAppSyncFunction04445BC7"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateTodopostAuth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/SubscriptionOnUpdateTodoDataResolverFn/SubscriptionOnUpdateTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnUpdateTodoDataResolverFnSubscriptionOnUpdateTodoDataResolverFnAppSyncFunction523DF0E4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnUpdateTodoDataResolverFn"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/subscriptionOnUpdateTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onUpdateTodo"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/SubscriptiononDeleteTodoauth0Function/SubscriptiononDeleteTodoauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteTodoauth0FunctionSubscriptiononDeleteTodoauth0FunctionAppSyncFunctionF69F2220"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteTodoauth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/SubscriptiononDeleteTodopostAuth0Function/SubscriptiononDeleteTodopostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteTodopostAuth0FunctionSubscriptiononDeleteTodopostAuth0FunctionAppSyncFunctionE131CBE7"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteTodopostAuth0Function"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/SubscriptionOnDeleteTodoDataResolverFn/SubscriptionOnDeleteTodoDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnDeleteTodoDataResolverFnSubscriptionOnDeleteTodoDataResolverFnAppSyncFunction3E641E8C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnDeleteTodoDataResolverFn"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/subscriptionOnDeleteTodoResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteTodoResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onDeleteTodo"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/reference-to-amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource30814FB7Outputs.amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent8D0BAA4CArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource30814FB7Outputsamplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataAmplifyTableMana7CD27800"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/reference-to-amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataGraphQLAPI4D344930ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataGraphQLAPI4D344930ApiId"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/reference-to-amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataGraphQLAPINONEDS571C2990Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataGraphQLAPINONEDS571C2990Name"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/reference-to-amplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputs.amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthauthenticatedUserRoleC2205315Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputsamplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthauthenticatedUserRoleC2205315Ref"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/reference-to-amplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputs.amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthunauthenticatedUserRoleAEE130F1Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputsamplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthunauthenticatedUserRoleAEE130F1Ref"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo/reference-to-amplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputs.amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthIdentityPool9D353E61Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputsamplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthIdentityPool9D353E61Ref"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/Todo.NestedStack/Todo.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataTodoNestedStackTodoNestedStackResource551CEA56"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AuthRolePolicy01/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAuthRolePolicy01567A5654"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/UnauthRolePolicy01/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataUnauthRolePolicy01355B9DCF"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucket9CCB4ACA"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketPolicyF1C1C548"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketAutoDeleteObjectsCustomResource437F26F5"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/LatestNodeRuntimeMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LatestNodeRuntimeMap"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+            "data": true
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBC5D8AB21"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/modelIntrospectionSchemaBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketF566B665"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/modelIntrospectionSchemaBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketPolicy4DAB0D15"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/modelIntrospectionSchemaBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketAutoDeleteObjectsCustomResourceFE57309F"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/modelIntrospectionSchemaBucketDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketDeploymentAwsCliLayer13C432F7"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/modelIntrospectionSchemaBucketDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketDeploymentCustomResource1536MiB104B97EC"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAGRAPHQLENDPOINTParameter1C2CBB16"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_BUCKET_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMABUCKETNAMEParameter47BF4F44"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_KEYParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMAKEYParameterB6AEAE8A"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/AMPLIFY_DATA_DEFAULT_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATADEFAULTNAMEParameterE7C23CC4"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/reference-to-amplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputs.amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthUserPool7BD117B8Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputsamplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthUserPool7BD117B8Ref"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/reference-to-amplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputs.amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthauthenticatedUserRoleC2205315Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputsamplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthauthenticatedUserRoleC2205315Ref"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/reference-to-amplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputs.amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthunauthenticatedUserRoleAEE130F1Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputsamplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthunauthenticatedUserRoleAEE130F1Ref"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/reference-to-amplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputs.amplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthIdentityPool9D353E61Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyamplifymanualinstallgitpodsandboxdd89e16732authNestedStackauthNestedStackResource9ACBF37DOutputsamplifyamplifymanualinstallgitpodsandboxdd89e16732authamplifyAuthIdentityPool9D353E61Ref"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataGraphQLAPI4D344930ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataGraphQLAPI4D344930ApiId"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataGraphQLAPI4D344930GraphQLUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataGraphQLAPI4D344930GraphQLUrl"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data/amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB2CE3B222DestinationBucketArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyamplifymanualinstallgitpodsandboxdd89e16732dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB2CE3B222DestinationBucketArn"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/data.NestedStack/data.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "data7552DF31"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/awsAppsyncApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiId"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/awsAppsyncApiEndpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiEndpoint"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/awsAppsyncAuthenticationType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAuthenticationType"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/awsAppsyncRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncRegion"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/amplifyApiModelSchemaS3Uri": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyApiModelSchemaS3Uri"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/awsAppsyncAdditionalAuthenticationTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAdditionalAuthenticationTypes"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-amplifymanualinstall-gitpod-sandbox-dd89e16732"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}
